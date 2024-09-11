@@ -1,0 +1,34 @@
+
+
+.responsive-div {
+    font-size: 3.3rem;
+    text-align: center;
+    background-color: #ff0e0e;
+    color: #ffffff;
+    font-family: 'Fredoka One', sans-serif; 
+    z-index: 10;
+    padding: 7px;
+    border: 2px solid rgba(255, 40, 40, 0);
+}
+
+.cor-dev {
+    color: #ffffff;
+    font-family: 'Fredoka One', sans-serif; 
+}
+
+@media (max-width: 600px) {
+    .responsive-div {
+        font-size: 2rem;
+        padding: 7px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .responsive-div {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}

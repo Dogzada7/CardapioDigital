@@ -1,0 +1,61 @@
+.intro-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #ff0000;
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 3s 2s forwards;
+    
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    animation: slideDown 1.5s ease-out;
+}
+
+.intro-text {
+    margin: 20px 0 0 0;
+    font-size: 2em;
+    animation: fadeIn 2s 1s ease-out;
+    font-family: 'Noto Serif JP', sans-serif; 
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+  
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

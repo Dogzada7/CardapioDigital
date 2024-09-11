@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUSHI HOUSE - A melhor comida japonesa</title>
+    <link rel="icon" href="img/logo-sushi/logo-sushi.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans+JP:wght@400;700&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu-lateral.css">
+    <link rel="stylesheet" href="css/animacao-entrada.css">
+    <link rel="stylesheet" href="css/card-inicio.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/barra-inicio.css">
+    <link rel="stylesheet" href="css/rolagem-cardapio.css">
+    <link rel="stylesheet" href="css/card-pontinho.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+</style>
+<body>
+    
+    <div id="intro" class="intro-screen">
+        <div class="logo-container">
+            <img src="img/logo-sushi/logo-sushi.jpg" alt="DBURGER Logo" class="logo">
+            <h1 class="intro-text">SUSHI HOUSE</h1>
+        </div>
+    </div>
+
+    
+    
+     
+    <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+
+    <div class="barra-lateral">
+        <div>
+            <div class="nome-pagina">
+                <img src="img/logo-sushi/logo-sushi.jpg" alt="" width="50px" id="cloud" name="cloud-outline" style="border-radius: 20%;">
+                <span>SUSHI HOUSE</span>
+            </div>
+            <button class="botao">
+                <ion-icon name="add-outline"></ion-icon>
+                <span>Procurar</span>
+            </button>
+        </div>
+    
+        <nav class="navegacao">
+            <ul>
+                <li>
+                    <a id="inicio" href="#">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#lanches">
+                      <ion-icon name="fish-outline"></ion-icon>
+                        <span>Entradas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Combos">
+                      <ion-icon name="restaurant-outline"></ion-icon>
+                        <span>Combinados</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Pizzas">
+                      <ion-icon name="wine-outline"></ion-icon>
+                        <span>Bebidas</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+       
+           
+            <div class="modo-escuro">
+                <div class="switch">
+                </div>
+            </div>
+    
+            <div class="usuario">
+                <img src="img/logo-sushi/logo-sushi.jpg" alt="">
+                <div class="info-usuario">
+                    <div class="nome-email">
+                        <span class="nome">SUSHI HOUSE</span>
+                        <span class="email">SushiHouse@gmail.com</span>
+                    </div>
+                    <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+
+      <div class="responsive-div" id="Hamburgueria">
+        <span class="cor-dev"></span>SUSHI HOUSE<span class="cor-dev"></span>
+   </div>
+
+   <div class="responsive-img">
+    <img src="img/logo-sushi/slide-japones-grande.png" alt="Imagem Grande" class="img-large">
+    <img src="img/logo-sushi/slide-japones-pequeno.png" alt="Imagem Pequena" class="img-small">
+    <img src="img/logo-sushi/slide-japones-media.png" alt="Imagem Media" class="img-media">
+</div>
+
+
+
+<div class="rolagem-cardapio">
+
+  <div class="circulo-cardapio">
+      <img src="/SushiHouse/img/logo-sushi/imagem1-rolagem.jpg" alt="">
+  </div>
+  <div class="circulo-cardapio">
+      <img src="img/rolagem-opcao/combo.png" alt="">
+  </div>
+  <div class="circulo-cardapio">
+      <img src="img/rolagem-opcao/batata.png" alt="">
+  </div>
+  <div class="circulo-cardapio">
+      <img src="img/rolagem-opcao/drink.png" alt="">
+  </div>
+  <div class="circulo-cardapio">
+      <img src="img/rolagem-opcao/pizza.png" alt="">
+  </div>
+  <div class="circulo-cardapio">
+      <img src="img/rolagem-opcao/pizza-doce.png" alt="">
+  </div>
+ 
+
+</div>
+
+
+<div class="geral-pontinho">
+
+
+  <div class="card-pontinho">
+    <div class="nome-pontinho">
+      <h1> JOES (20 PEÇA)</h1>
+    </div>
+    <div class="itens">
+      <div class="itens-lado-direito">
+        <li>4 JOE DORITOS</li>
+        <li>4 JOE COUVE</li>
+        <li>4 JOE ALHO FRITO</li>
+        </div>
+        <div class="itens-lado-esquerdo">
+        <li>4 JOE FILADÉLFIA</li>
+        <li>4 JOE SALMÃO BATIDO</li>
+        </div>
+    </div>
+    <div class="preco-lado-esquerdo">
+      <div class="preco">R$: 85,00</div>
+    </div>
+   
+    
+  </div>
+  
+  <div class="card-pontinho">
+    <div class="nome-pontinho">
+      <h1> HOT (30 PEÇA)</h1>
+    </div>
+    <div class="itens">
+      <div class="itens-lado-direito">
+        <li>5 HOT SALMÃO</li>
+        <li>5 HOT FILADELFIA</li>
+        <li>5 HOT COUVE</li>
+        </div>
+        <div class="itens-lado-esquerdo">
+        <li>5 HOT DORITOS</li>
+        <li>5 HOT ALHO FRITO</li>
+        <li>5 HOT CHOCOLATE</li>
+        </div>
+    </div>
+    <div class="preco-lado-esquerdo">
+      <div class="preco">R$: 70,00</div>
+    </div>
+   
+    
+  </div>
+  
+  <div class="card-pontinho">
+    <div class="nome-pontinho">
+      <h1> 1 (16 PEÇA)</h1>
+    </div>
+    <div class="itens">
+      <div class="itens-lado-direito">
+        <li>4 URUMAKI FILADELFIA</li>
+        <li>4 HOSSOMAKI SALMÃO BATIDO</li>
+        <li>4 </li>
+        </div>
+        <div class="itens-lado-esquerdo">
+        <li>4 HOSSOMAKI PIMENTA</li>
+        <li>4 NIGUIRI SALMÃO</li>
+        <li>4 NIGUIRI SALMÃO</li>
+        </div>
+    </div>
+    <div class="preco-lado-esquerdo">
+      <div class="preco">R$: 45,00</div>
+    </div>
+   
+    
+  </div>
+  
+  <div class="card-pontinho">
+    <div class="nome-pontinho">
+      <h1> 2 (24 PEÇA)</h1>
+    </div>
+    <div class="itens">
+      <div class="itens-lado-direito">
+        <li>4 URUMAKI FILADÉLFIA</li>
+        <li>4 URUMAKI KANI</li>
+        <li>4  HOSSOMAKI PIMENTA </li>
+        </div>
+        <div class="itens-lado-esquerdo">
+        <li>4  HOSSOMAKI SALMÃO ABATIDO</li>
+        <li>4  HOSSOMAKI FILADÉLFIA</li>
+        <li>2  HOSSOMAKI DORITOS</li>
+        </div>
+    </div>
+    <div class="preco-lado-esquerdo">
+      <div class="preco">R$: 58,00</div>
+    </div>
+   
+    
+  </div>
+  
+  <div class="card-pontinho">
+    <div class="nome-pontinho">
+      <h1> 3 (28 PEÇA)</h1>
+    </div>
+    <div class="itens">
+      <div class="itens-lado-direito">
+        <li>4 JOE LIGHT</li>
+        <li>4 JOE SALMÃO BATIDO</li>
+        <li>4  URAMAKI FILADÉLFIA </li>
+        </div>
+        <div class="itens-lado-esquerdo">
+        <li>4  URAMAKI DE KANI </li>
+        <li>4  HOSSOMAKI FILADÉLFIA</li>
+        <li>4  HOSSOMAKI LAMÃO</li>
+        </div>
+    </div>
+    <div class="preco-lado-esquerdo">
+      <div class="preco">R$: 76,00</div>
+    </div>
+   
+    
+  </div>
+  
+  <div class="card-pontinho">
+    <div class="nome-pontinho">
+      <h1> 4 (50 PEÇA)</h1>
+    </div>
+    <div class="itens">
+      <div class="itens-lado-direito">
+        <li>8 HOSSOMAKI DE SALMÃO</li>
+        <li>8 HOSSOMAKI SALMÃO BATIDO</li>
+        <li> 8 HOSSOMAKI GELEIA DE PIMENTA</li>
+        </div>
+        <div class="itens-lado-esquerdo">
+        <li>8 HOSSOMAKI GELEIA DE DAMASCO</li>
+        <li>8 HOSSOMAKI DORITOS </li>
+        <li>4  NIGUIRI DE SALMÃO</li>
+        </div>
+    </div>
+    <div class="preco-lado-esquerdo">
+      <div class="preco">R$: 132,00</div>
+    </div>
+  </div>
+
+   
+  <div class="card-pontinho">
+    <div class="nome-pontinho">
+      <h1> 5 (96 PEÇA)</h1>
+    </div>
+    <div class="itens">
+      <div class="itens-lado-direito">
+        <li>8 HOSSOMAKI DE SALMÃO</li>
+        <li>8 HOSSOMAKI SALMÃO BATIDO</li>
+        <li> 8 HOSSOMAKI GELEIA DE PIMENTA</li>
+        </div>
+        <div class="itens-lado-esquerdo">
+        <li>8 HOSSOMAKI GELEIA DE DAMASCO</li>
+        <li>8 HOSSOMAKI DORITOS </li>
+        <li>8 JOE LIGTH</li>
+        </div>
+    </div>
+    <div class="preco-lado-esquerdo">
+      <div class="preco">R$: 275   ,00</div>
+    </div>
+  </div>
+
+
+  </div>
+
+
+      <div class="geral-card">
+
+<!-- Card de entrada-->
+<div class="menu-container">
+  <h2>ENTRADAS</h2>
+  <ul class="menu-list">
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>GUIOZA (6 UNIDADES)</span>
+        </div>
+        <span class="item-price">R$ 28,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>SHIMEJI (250g)</span>
+        </div>
+        <span class="item-price">R$ 32,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>ROLINHO PRIMAVERA (4 UNIDADES)</span>
+        </div>
+        <span class="item-price">R$ 28,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>SALMÃO CROCANTE (12 UNIDADES)</span>
+        </div>
+        <span class="item-price">R$ 40,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    
+  </ul>
+</div>
+
+<!-- Card de entrada NIGUIRI-->
+<div class="menu-container">
+  <h2>NIGUIRI (4 UNIDADES)</h2>
+  <ul class="menu-list">
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>SALMÃO</span>
+        </div>
+        <span class="item-price">R$ 18,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>SALMÃO SOLDADO</span>
+        </div>
+        <span class="item-price">R$ 20,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>SALMÃO SOLDADO COM PIMENTA </span>
+        </div>
+        <span class="item-price">R$ 22,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>KANI</span>
+        </div>
+        <span class="item-price">R$ 16,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    
+  </ul>
+</div>
+
+<!-- Card de entrada URUMAKI-->          
+<div class="menu-container">
+  <h2>URUMAKI (8 UNIDADES)</h2>
+  <ul class="menu-list">
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>CALIFORNIA</span>
+        </div>
+        <span class="item-price">R$ 22,00</span>
+      </div>
+      <p class="item-description">(MANGA, KANI, PEPINO.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>KANI</span>
+        </div>
+        <span class="item-price">R$ 26,00</span>
+      </div>
+      <p class="item-description">(KANI E CREAM CHESE.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>FILADÉLFIA</span>
+        </div>
+        <span class="item-price">R$ 30,00</span>
+      </div>
+      <p class="item-description">(SALMÃO E CREAM CHEESE.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>GRELHADO</span>
+        </div>
+        <span class="item-price">R$ 32,00</span>
+      </div>
+      <p class="item-description">(PATE DE SALMO GRELHADO.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>ESPECIAL</span>
+        </div>
+        <span class="item-price">R$ 34,00</span>
+      </div>
+      <p class="item-description">(SALMÃO, CREME CHEESE E FATIA DE SALMÃO EXTRA EM CIMA.)</p>
+    </li>
+  </ul>
+</div>
+   <!-- Card de entrada URUMAKI-->          
+<div class="menu-container">
+  <h2>HOSSOMAKI (8 UNIDADES)</h2>
+  <ul class="menu-list">
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>PEPINO</span>
+        </div>
+        <span class="item-price">R$ 16,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>KANI</span>
+        </div>
+        <span class="item-price">R$ 18,00</span>
+      </div>
+      <p class="item-description"></p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>FILADÉLFIA</span>
+        </div>
+        <span class="item-price">R$ 24,00</span>
+      </div>
+      <p class="item-description">(SALMÃO E CREAM CHEESE EM CIMA.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>DORITOS</span>
+        </div>
+        <span class="item-price">R$ 25,00</span>
+      </div>
+      <p class="item-description">(SALMÃO E CREAM CHEESE COM DORITOS EM CIMA.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>ALHO FRITO</span>
+        </div>
+        <span class="item-price">R$ 24,00</span>
+      </div>
+      <p class="item-description">(SALMÃO E CREAM CHEESE COM ALHO FRITO EM CIMA)</p>
+    </li>
+  </ul>
+</div>
+   
+<div class="menu-container">
+  <h2>YAKISSOBA (GRANDE) R$ 35,00</h2>
+  <ul class="menu-list">
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>CARNE</span>
+        </div>
+        <span class="item-price"></span>
+      </div>
+      <p class="item-description">(MACARRÃO YAKISSOBA, VAGEM, CENOURA, ACELGA, REPOLHO, BRÓLIS, COUVE FLOR E CARNE DE BOI.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>FRANGO</span>
+        </div>
+        <span class="item-price"></span>
+      </div>
+      <p class="item-description">(MACARRÃO YAKISSOBA,VAGEM,CENOURA,ACELGA,REPOLHO ROXO,BRÓCOLIS, COUVE FLOR E FRANGO.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>MISTO</span>
+        </div>
+        <span class="item-price"></span>
+      </div>
+      <p class="item-description">(MACARRÃO YAKISSOBA,VAGEM,CENOURA,ACELGA,REPOLHO ROXO,BRÓCOLIS, COUVE FLOR CARNE BOI E FRANGO.)</p>
+    </li>
+    <li class="menu-item">
+      <div class="item-name-price">
+        <div class="item-name">
+          <span>LEGUMES</span>
+        </div>
+        <span class="item-price"></span>
+      </div>
+      <p class="item-description">(MACARRÃO YAKISSOBA,VAGEM,CENOURA,ACELGA,REPOLHO ROXO,BRÓCOLIS E COUVE FLOR.)</p>
+    </li>
+    
+  </ul>
+</div>
+        </div>
+
+
+        <footer class="footer">
+          <div class="footer-container">
+              <div class="footer-section about">
+                  <h2>Sobre Nós</h2>
+                  <p>Oferecemos uma experiência maravilhosa e única com nossos japa preparados com ingredientes frescos e de alta qualidade. Venha conhecer nosso restaurante e descubra o sabor que vai te surpreender!</p>
+                  <div class="footer-socials">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-whatsapp"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+      
+                  </div>
+              </div>
+              <div class="footer-section links">
+                  <h2>Links Rápidos</h2>
+                  <ul>
+                      <li><a href="#">Início</a></li>
+                      <li><a href="#Hamburgueria">Hamburgueria</a></li>
+                      <li><a href="#Pizzaria">Pizzaria</a></li>
+                  </ul>
+              </div>
+              <div class="footer-section contact">
+                  <h2>Contato</h2>
+                  <p><i class="fas fa-map-marker-alt"></i> Rua SushiHouse, 170 - Riversul-SP</p>
+                  <p><i class="fas fa-phone"></i> (15) 1234-5678</p>
+                  <p><i class="fas fa-envelope"></i> SushiHouse@gmail.com.br</p>
+              </div>
+              <div class="footer-section newsletter">
+                  <h2>Desenvolvimento TCC</h2>
+                  <p>Fique por dentro das etapas e avanços do nosso TCC, desde a pesquisa até a conclusão do projeto.</p>
+                  
+                 
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2024 Restaurante SUSHI HOUSE. Todos os direitos reservados.</p>
+          </div>
+      </footer>
+    </main>
+</body>
+
+<script src="js/menu-lateral.js"></script>
+</html>

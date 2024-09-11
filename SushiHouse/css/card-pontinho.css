@@ -1,0 +1,51 @@
+.geral-pontinho{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 10px;
+   justify-content: center;
+}
+
+.card-pontinho{
+    width: 380px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nome-pontinho h1{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background: rgb(179, 14, 14);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.itens{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+ .itens li{
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.preco-lado-esquerdo {
+    background-color: #ffffff; 
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px;
+}
+
+.preco {
+    width: 150px; 
+    background-color: rgb(179, 14, 14); 
+    color: #ffffff; 
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
